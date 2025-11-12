@@ -1,0 +1,102 @@
+:root {
+    --font-primary: Merriweather, Geneva, Tahoma, sans-serif;
+    --font-secondary: Zalando Sans SemiExpanded;
+    --font-family-third: Playfair Display;
+    --deep-gray: #4b4c4e;
+    --light-gray: #d4d4d4;
+    --deep-blue: #004b4d;
+    --highlights: #00f7ff;
+    --mid-gray: #a0a2a2;
+    --font-size-big: 64px;
+    --font-size-small: 16px;
+    --font-size-medium: 24px;
+    --bg-color: linear-gradient(var(--mid-gray), var(--light-gray));
+    --text-shadow:
+            0 0 4px white,
+            0 0 10px white,
+            0 0 20px white,
+            0 0 40px white;
+}
+
+
+body {
+    font-family: var(--font-primary), serif;
+    background : var(--light-gray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500vh;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--bg-color);
+    height: 100vh;
+    width: 100vw;
+
+}
+.hero-text {
+    font-size: var(--font-size-big);
+    color: var(--deep-gray);
+    text-shadow: var(--text-shadow);
+}
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+    height: 60vh;
+    border-radius: 30px;
+    border: 4px solid #4b4c4e;
+}
+.hero-img {
+    width: 30%;
+    height: auto;
+    margin-left: 15px;
+    border-radius: 30px;
+    border: 8px solid var(--deep-gray);
+}
+.main {
+    height: auto;
+    width: 100vw;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-container {
+    font-family: var(--font-secondary), serif;
+    font-size: var(--font-size-medium);
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    border: 4px solid black;
+    padding: 30px;
+}
+
+.about-me-container {
+    font-family: var(--font-family-third), serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border: 4px solid blue;
+}
+.column-1 {
+    width: 140vw;
+    aspect-ratio: 1/1;
+    margin: 35px;
+    border: 4px solid green;
+}
+
