@@ -25,7 +25,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 500vh;
+    height: 900vh;
 }
 
 .hero {
@@ -93,10 +93,177 @@ body {
     padding-right: 10%;
     border: 4px solid blue;
 }
+.about-me-title {
+    text-align: center;
+    font-family: var(--font-primary), serif;
+    font-weight: bold;
+    font-size: 34px;
+}
 .column-1 {
     width: 140vw;
     aspect-ratio: 1/1;
     margin: 35px;
     border: 4px solid green;
 }
+
+
+.showreel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid magenta;
+    margin-top: 40px;
+    padding: 40px;
+}
+
+.showreel-container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid blue;
+    padding: 20px 40px 40px;
+}
+
+.showreel-title {
+    font-size: 64px;
+    font-family: var(--font-family-third), serif;
+    font-weight: bold;
+}
+.showreel-text {
+    margin-left: 20px;
+    border: 2px solid green;
+    width: 400px;
+}
+
+.skills-section {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 30px;
+    margin: 30px;
+}
+.skill-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border: 2px solid orange;
+    padding: 10px;
+}
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    width: fit-content;
+    height: fit-content;
+    padding: 30px;
+    margin: 30px
+}
+.portfolio-row {
+    border: 2px solid orange;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.portfolio-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid magenta;
+    margin: 20px;
+    padding: 20px;
+}
+.portfolioImg {
+    width: 250px;
+    height: 140px;
+    border: 2px solid green;
+}
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    margin: 20px;
+}
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid magenta;
+}
+.contact-title {
+    font-size: 24px;
+    font-family: var(--font-primary), serif;
+}
+.pricing-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin: 30px;
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid darkred;
+}
+.pricing-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin: 130px;
+}
+.reviews-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin: 30px;
+    border: 2px solid deepskyblue;
+    width: fit-content;
+    height: fit-content;
+}
+.review-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid red;
+
+}
+.reviewCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+
 
