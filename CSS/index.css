@@ -265,5 +265,28 @@ body {
     border: 2px solid black;
 }
 
+.resultsContainer {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.resultsCard {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 2px solid purple;
+    margin: 20px;
+}
+
+.resultImgContainer {
+    height: 300px;
+    width: 300px;
+    border: 2px solid green;
+
+}
+
 
 
